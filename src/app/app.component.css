@@ -1,0 +1,61 @@
+
+.MainDiv{
+border-radius: 5px;
+background-color: #f2f2f2;
+background-position: center;
+height : 420px;
+width : 410px;
+text-align: center;
+}
+
+.displayField{
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    margin:0 auto;
+    text-align: right;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.numberButtons {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 22px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.operationButtons {
+    width: 130%;
+    background-color: rgb(76, 175, 170);
+    border: none;
+    color: white;
+    padding: 22px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.clearButton {
+    width: 130%;
+    background-color: rgb(209, 103, 62);
+    border: none;
+    color: rgb(211, 205, 205);
+    padding: 22px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.tableStyle{
+    padding: 2px 10px;
+}

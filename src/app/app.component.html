@@ -1,0 +1,39 @@
+<br /><br />
+<div class = "MainDiv" style="margin:0 auto;">
+    <br />
+    <input type = "text" value = "{{operationField}}"  pattern="[0-9]" class="displayField" />
+    <hr>
+    <br /><br />
+
+<table class = "tableStyle" border = "0px" width = "100px" cellspacing = "2px" cellpadding = "2px"> 
+<tr> 
+  <td> <button type="button" value = "1" class = "numberButtons" (click) = "setEnteredNumber($event)"> 1 </button></td> 
+  <td> <button type="button" value = "2" class = "numberButtons" (click) = "setEnteredNumber($event)"> 2 </button></td> 
+  <td> <button type="button" value = "3" class = "numberButtons" (click) = "setEnteredNumber($event)"> 3 </button></td> 
+  <td> <button type="button" value = "clear" class = "clearButton" (click) = "ClearFields()"> C </button></td> 
+</tr>
+
+<tr> 
+    <td> <button type="button" value = "4" class = "numberButtons" (click) = "setEnteredNumber($event)"> 4 </button></td> 
+    <td> <button type="button" value = "5" class = "numberButtons" (click) = "setEnteredNumber($event)"> 5 </button></td> 
+    <td> <button type="button" value = "6" class = "numberButtons" (click) = "setEnteredNumber($event)"> 6 </button></td>
+    <td> <button type="button" value = "add" class = "operationButtons" (click) = "setEnteredNumber($event)"> + </button></td> 
+</tr>
+
+<tr> 
+    <td> <button type="button" value = "7" class = "numberButtons" (click) = "setEnteredNumber($event)"> 7 </button></td> 
+    <td> <button type="button" value = "8" class = "numberButtons" (click) = "setEnteredNumber($event)"> 8 </button></td> 
+    <td> <button type="button" value = "9" class = "numberButtons" (click) = "setEnteredNumber($event)"> 9 </button></td> 
+    <td> <button type="button" value = "sub" class = "operationButtons" (click) = "setEnteredNumber($event)"> - </button></td> 
+</tr>
+
+<tr> 
+    <td> <button type="button" value = "0" class = "numberButtons" (click) = "setEnteredNumber($event)"> 0 </button></td> 
+    <td> </td> 
+    <td> </td> 
+    <td> <button type="button" value = "equals" class = "operationButtons" (click) = "Operations()"> = </button></td> 
+</tr>
+
+</table>
+
+</div>
